@@ -46,7 +46,7 @@ go get golang.org/x/crypto/bcrypt
 ![login](img/get_admin_stats.jpeg)
 
 # Запрос статистики (пользователь)
-![login](img/get_stats_user_error).jpeg
+![login](img/get_stats_user_error.jpeg)
 
 ## Список проведённых запросов
 ![post](img/all_requests.jpeg)
