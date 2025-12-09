@@ -26,27 +26,36 @@ go get github.com/golang-jwt/jwt/v5
 go get golang.org/x/crypto/bcrypt
 ```
 
-## Создаём структуру файлов
+## Создаём структуру файлов и запускаем сервер
 
 ![structure](img/structure.jpeg)
 
-# Запускаем сервер
-![run](img/go_run.jpeg)
+# Проверка Health
+![login](img/health.jpeg)
 
-# Логин администратора - получить токен
-![login](img/post_login_admin.jpeg)
+# Создаём заметку
+![login](img/create_note.jpeg)
 
-# Логин пользователя - получить токен
-![login](img/post_login_user.jpeg)
+# Запрашиваем все заметки
+![login](img/get_all_notes.jpeg)
 
-# Запрос профиля - используем токен
-![login](img/get_login_admin.jpeg)
+# Обновляем заметку
+![login](img/update.jpeg)
 
-# Запрос статистики (админ)
-![login](img/get_admin_stats.jpeg)
+# Удаляем заметку
+![login](img/delete.jpeg)
 
-# Запрос статистики (пользователь)
-![login](img/get_stats_user_error.jpeg)
+# Пробуем найти заметку по id после удаления
+![login](img/after_delete.jpeg)
+
+# Создание заметки с невалидными данными
+![login](img/post_error_novalid.jpeg)
+
+# Пытемся обновить заметку с несуществующим id
+![login](img/update_not_found.jpeg)
 
 ## Список проведённых запросов
 ![post](img/all_requests.jpeg)
+
+# Ответы сервера на проведённые запросы
+![login](img/answer.jpeg)
